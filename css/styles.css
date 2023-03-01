@@ -1,0 +1,185 @@
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --very-light-pink: #c7c7c7;
+    --text-input-field: #f7f7f7;
+    --hospital-green: #acd9b2;
+    /*Medidas */
+    --sm: 14px; /*Indica pequeña */ 
+    --md: 16px; 
+    --lg: 18px;  
+} 
+/* Depurador para ver cuanto espacio ocupa cada elemento */
+/* * {
+    outline: 1px solid olive;
+} */
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--hospital-green);
+    
+
+}
+
+/* SECCION INICIO */
+
+header {
+
+    overflow: hidden; /*para evitar que los elementos se sobresalgan del header */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+   
+      
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    margin-right: 10px;
+}
+ 
+ header, section {
+
+    margin: 0 auto;
+    /* display: flex; */
+} 
+
+header, .cabecera {
+    background-color: var(--very-light-pink);
+    border-radius: 10px ;
+    
+} 
+
+
+header h1 {
+    border-radius: 50px;
+    text-align: center;
+    background-color: var(--white);
+}
+
+header h2 {
+   
+    border-radius: 50px;
+    text-align: center;
+    background-color: var(--white);
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.icono {
+    margin-right: 4px;
+    margin-top: 5px;
+    position:top;
+    text-align: center;
+}
+
+.redes {
+    list-style: none;
+    font-size:var(--md);
+    text-decoration: none;
+    color:var(--black)
+
+}
+
+.ul_contacto {
+    text-align: center;
+    list-style: none;
+    color: var(--black);
+    padding: 0px;
+
+}
+
+.item_espaciado {
+    margin: 5px;
+}
+
+/* SECCION BOTONES DE NAVEGACIÓN */
+.boton-uno, .boton-dos, .boton-tres, .boton-cuatro {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border: none;
+    color: var(--white); /*Para que el color de la letra dentro del boton */
+    cursor: pointer; /*Para que cambie el cursor cuando se desliza por arriba */
+    font-size: var(--md); 
+    font-weight: bold;
+    height: 30px;
+}
+nav  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    
+}
+
+nav a {
+    color: var(--black);
+    text-decoration: none;
+    margin: none;
+    padding: none;
+    display: inline;
+}
+
+nav .li_nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size:var(--md);
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+
+/* SECCION SOBREMI */
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor > div {
+    flex-grow: 1;
+}
+
+.sobremi h2 {
+    margin: auto;
+    text-align: center; 
+}
+
+div .titulo-container {
+    margin: auto;
+    text-align: center;
+}
+
+.linea {
+    color: var(--very-light-pink);
+    width: 360px;
+    height: 2px;
+    background: var(--very-light-pink);
+}
+
+.contenido-seccion, li {
+    font-size:var(--md);
+    list-style: none;
+    color: var(--black);
+/* SECCION HABILIDADES */
+}
+.certificacion {
+    text-align: center;
+}
+
+.habilidades ul {
+    text-align: center;
+}
+
+.button-js {
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
