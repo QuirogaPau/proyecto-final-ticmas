@@ -18,7 +18,8 @@
 body {
     font-family: 'Quicksand', sans-serif;
     color: var(--hospital-green);
-    
+    margin: 0 auto;
+    max-width: 50em;
 
 }
 
@@ -183,3 +184,23 @@ div .titulo-container {
     border: none;
     cursor: pointer;
 }
+
+/* @media (max-width: 640px)  {
+   header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 100px;
+    grid-template-areas:
+        "a a b"
+        "a a b";
+}
+    .area1 {
+        grid-area: a;
+    }
+   
+    .area3 {
+        grid-area: b;
+    }
+    
+
+} */
