@@ -20,6 +20,7 @@ body {
     color: var(--hospital-green);
     margin: 0 auto;
     max-width: 50em;
+    padding: 10px 10px;
 
 }
 
